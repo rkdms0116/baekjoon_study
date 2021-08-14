@@ -9,4 +9,4 @@ total_weight = []
 for i in range(n):
     total_weight.append(sorted_rope[i]*(n-i))
 
-print(total_weight)
+print(max(total_weight))
