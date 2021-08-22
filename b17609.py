@@ -1,4 +1,6 @@
 # 시간 초과 발생
+import sys
+input = sys.stdin.readline
 
 T = int(input()) 
 
