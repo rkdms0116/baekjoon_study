@@ -1,4 +1,29 @@
 N, M = map(int, input().split())
+vat = list(map(int, input().split()))
+cnt = 0
+i = 0
+snow_size = 1
+
+while i < N:
+    if cnt == M:
+        break
+    
+    snow_size1 = snow_size + vat[i+1]
+    snow_size2 = snow_size//2 + vat[i+2]
+
+    if snow_size1 >= snow_size2:
+        i += 1
+        snow_size = snow_size1
+    else:
+        i += 2
+        snow_size = snow_size2
+
+    cnt += 1
+
+print(snow_size)
+
+
+'''N, M = map(int, input().split())
 a = [0] + list(map(int,input().split()))
 
 i = 1
@@ -15,4 +40,4 @@ while i < N and M > 0:
     i += 1
     M -= 1
 
-print(case)
+print(case)'''
