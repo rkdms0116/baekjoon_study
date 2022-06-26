@@ -1,5 +1,5 @@
 dice = list(map(int, input().split()))
-print(set(dice))
+
 if len(set(dice)) == 1:
     price = 10000 + dice[0]*1000
 elif len(set(dice)) == 2:
