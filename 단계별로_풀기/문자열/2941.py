@@ -1,3 +1,4 @@
+# 크로아티아 알파벳
 words = input()
 
 idx = 0
@@ -38,5 +39,5 @@ while idx < len(words):
     else:
         idx += 1
     cnt += 1
-    
+
 print(cnt)
