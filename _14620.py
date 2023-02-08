@@ -5,7 +5,6 @@ farms = list()
 for _ in range(N):
     farms.append(list(map(int, input().split())))
 # 한 칸 이상 건너띄면서 최솟값 찾기
-new_farms = list([0]*N for _ in range(N))
 cost_land = []
 dy = [-1,1,0,0,0]
 dx = [0,0,-1,1,0]
