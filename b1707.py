@@ -41,7 +41,3 @@ for _ in range(K):
                             flag = 'NO'
     
     print(flag)
-
-
-
-# 시작점부터 시작해서 bfs로 flag True/False로 check
